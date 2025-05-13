@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+  }
+  *{
+    margin : 0px;
+    padding :0px;
+}
+
+  
+    header {
+        background-color:  rgba(64, 121, 7, 0.7);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 0px;
+  }
+
+  .content {
+    padding: 40px;
+    background-image: url("image3.jpeg");
+    margin: 5% auto;
+    width: 50%;
+    border-radius: 25px;
+    border: solid rgb(36, 3, 3);
+  }
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+
+
+  p {
+    font-size: 30px;
+    line-height: 1.6;
+  }
+
+
+
+  footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgba(64, 121, 7, 0.7);
+    font-size: 18px;
+    text-align: center;
+  }
+  nav{
+    font-family: "Ubuntu Mono", monospace;
+}
+nav ul li{
+   padding : 0 70px;
+}
+nav ul{
+   display : flex;
+   align-items: center;
+   list-style-type : none;
+   height : 89px;
+   background-color :rgb(33, 160, 24);
+   color : white;
+
+   
+   }
+.brand img{
+   width :50px;
+   padding : 0 10px;
+}
+.brand{
+   display :flex;
+   align-items: center;
+   font-weight : bolder;
+  
+font-size : 1.3rem;
+}
+
+
+.yoga{
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div img{
+  width : 300px;
+  height : 250px;
+  border: 2px solid rgb(36, 3, 3);
+  border-radius: 13px;
+  margin: 10px;
+}
+a {
+    
+ color: white;
+ text-decoration: none;
+  
+}
+ a:active{
+  color: black;
+  text-decoration: underline;
+
+ } 

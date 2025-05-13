@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+body{
+ background-color :antiquewhite;
+}
+
+*{
+    margin : 0px;
+    padding :0px;
+}
+nav{
+     font-family: "Ubuntu Mono", monospace;
+}
+nav ul li{
+    padding : 0 70px;
+}
+nav ul{
+    display : flex;
+    align-items: center;
+    list-style-type : none;
+    height : 89px;
+    background-color :rgb(33, 160, 24);
+    color : white;
+    }
+.brand img{
+    width :50px;
+    padding : 0 10px;
+}
+.brand{
+    display :flex;
+    align-items: center;
+    font-weight : bolder;
+   
+ font-size : 1.3rem;
+}
+
+   h1{
+    color :rgb(214, 21, 47);
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Ubuntu Mono";
+
+    
+   }
+
+   p{
+    color :rgb(56, 72, 6);
+margin-top: 70px;
+text-size-adjust: 90pxp;
+margin-left: 80px;
+margin-right: 80px;
+text-align: center;
+   }
+   .container{
+    text-align: center;
+    margin :auto;
+    color :black
+
+   }
+#HealthyLivingTips{
+    color :black;
+}
+
+
+header {
+    background-color:  rgba(64, 121, 7, 0.7);
+    padding: 20px;
+    font-size: 30px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgba(64, 121, 7, 0.7);
+    font-size: 18px;
+}
+
+
+p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.content {
+    
+    padding: 40px;
+    filter: 0px;
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 25px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1571019613913-7b0ae68a0ef8');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:black;
+    text-align: center;
+}
+a {
+    
+ color: white;
+ text-decoration: none;
+  
+}
+ a:active{
+  color: black;
+  text-decoration: underline;
+
+ } 
